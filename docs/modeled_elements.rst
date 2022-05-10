@@ -9,7 +9,7 @@ Elements modeled in this environment and their main properties
 ===============================================================
 
 Any grid2op environment model different elements. In this section, we explain what is modeled and what is not. This
-page can be usefull:
+page can be useful:
 
 - if you want to better understand an element of grid. For example you don't really know
   how to access the "production of a generator", in this case you can visit the :ref:`generator-mod-el` section
@@ -45,7 +45,7 @@ Each type of elements will be described in the same way:
   with `env.gen_pmin`, `env.action_space.gen_pmin`, `env.observation_space.gen_pmin`, `act.gen_pmin`
   or even `obs.gen_pmin` for example. We do not recommend to alter them.
 - `Modifiable attributes` are the attributes than can be modified by the `action`
-- `Observable attributes` are the attributs that can be read from the observation. We do not recommend
+- `Observable attributes` are the attributes that can be read from the observation. We do not recommend
   to alter them.
 - `Equations satisfied` explains the "constraint" of all of the above
 
@@ -61,10 +61,10 @@ Generators
 
 Description
 ~~~~~~~~~~~~~~~~~~
-Generators are elements connected to the powergrid who's role mainly consist in producing prower and
+Generators are elements connected to the powergrid whose role mainly consist in producing power and
 maintaining the safety of grid in some conditions (voltage collapse).
 
-An a positive production means the generator produce something, so power is injected from the generator
+A positive production means the generator produces something, so power is injected from the generator
 to the grid.
 
 Grid2op implements different information, available at different level that concerns generators.
