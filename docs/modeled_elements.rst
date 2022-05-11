@@ -1037,17 +1037,17 @@ Description
 A "substation" is a place where "elements" (side of a powerline, a load, a generator or
 a storage unit) belonging to the powergrid are connected all together.
 
-Substations are connected to other substation with powerlines (this is why powerline have two "sides": one for
+Substations are connected to other substations with powerlines (this is why powerline have two "sides": one for
 each substation they are connecting).
 
-In most powergrid around the world, substations are made of multiple "busbars". In grid2op we supposes that
-every "elements" connected to a substation can be connected to every busbars in the substation. This is mainly
+In most powergrid around the world, substations are made of multiple "busbars". In grid2op we suppose that
+every "element" connected to a substation can be connected to every busbar in the substation. This is mainly
 done for simplicity, for real powergrid it might not be the case. We also, for simplicity, assume that
-each substations counts exactly 2 distincts busbars.
+each substation counts exactly 2 distinct busbars.
 
-At the initial step, for all environment available at the time of writing (february 2021) every objects
-were connected to the busbar 1 of their substation. This is not a requirement of grid2op, but it was the case
-for every environments created.
+At the initial step, for all environment available at the time of writing (february 2021) every object
+was connected to the busbar 1 of their substation. This is not a requirement of grid2op, but it was the case
+for every environment created.
 
 .. _topology-pb-explained:
 
